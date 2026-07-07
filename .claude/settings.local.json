@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\\", \"C:\\\\Program Files\", \"C:\\\\Program Files \\(x86\\)\", \"$env:LOCALAPPDATA\", \"$env:APPDATA\" -ErrorAction SilentlyContinue | Where-Object { $_.Name -match \"node|nvm\" } | Select-Object FullName)"
+    ]
+  }
+}

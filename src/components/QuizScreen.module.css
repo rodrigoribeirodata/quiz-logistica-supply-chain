@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progressWrapper {
+  flex: 1;
+}
+
+.nextBtn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: var(--radius-btn);
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-primary), #8B5CF6);
+  color: #fff;
+  box-shadow: var(--shadow-btn);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  animation: fadeIn 0.25s ease;
+}
+
+.nextBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(108, 99, 255, 0.4);
+}
+
+.nextBtn:active {
+  transform: translateY(0);
+}

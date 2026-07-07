@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ini-01",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Supply Chain Management (SCM) abrange apenas as atividades de transporte físico de mercadorias entre a fábrica e o cliente final.",
+    "answer": false,
+    "explanation": "SCM cobre toda a cadeia de valor: fornecedores de matéria-prima, produção, armazenagem, distribuição e fluxo de informação — muito além do simples transporte."
+  },
+  {
+    "id": "ini-02",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Logística e Supply Chain Management são termos completamente sinônimos e intercambiáveis.",
+    "answer": false,
+    "explanation": "Logística é um subconjunto do SCM, focada em movimentação e armazenagem. SCM é mais amplo, incluindo relacionamento com fornecedores, planejamento de demanda e coordenação estratégica da cadeia toda."
+  },
+  {
+    "id": "ini-03",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Um dos principais objetivos da gestão da cadeia de suprimentos é reduzir custos ao mesmo tempo em que mantém ou melhora o nível de serviço ao cliente.",
+    "answer": true,
+    "explanation": "O equilíbrio entre custo e nível de serviço é o trade-off central do SCM: não basta ser barato se o serviço é ruim, nem adianta ter serviço excelente com custo proibitivo."
+  },
+  {
+    "id": "ini-04",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Just in Time (JIT) é uma filosofia que busca receber materiais somente quando e na quantidade necessária, reduzindo estoques ao mínimo.",
+    "answer": true,
+    "explanation": "JIT, popularizado pela Toyota, visa eliminar desperdícios mantendo estoques mínimos e produzindo/abastecendo no momento exato da necessidade."
+  },
+  {
+    "id": "ini-05",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "O efeito chicote (bullwhip effect) ocorre quando pequenas variações na demanda do consumidor final se amplificam à medida que sobem pela cadeia, gerando grandes oscilações nos pedidos aos fornecedores.",
+    "answer": true,
+    "explanation": "O efeito chicote é clássico: cada elo da cadeia adiciona margem de segurança aos pedidos, fazendo variações pequenas no varejo gerarem enormes flutuações nos pedidos de insumos."
+  },
+  {
+    "id": "ini-06",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Demanda dependente é aquela cujo volume pode ser calculado diretamente a partir da demanda por outro item, como os componentes de um produto acabado.",
+    "answer": true,
+    "explanation": "Demanda dependente deriva matematicamente de outro item (ex.: 100 bicicletas exigem 200 rodas). Já demanda independente precisa ser prevista via forecasting."
+  },
+  {
+    "id": "ini-07",
+    "level": "iniciante",
+    "category": "conceitos-gerais",
+    "statement": "Um Centro de Distribuição (CD) tem como função principal armazenar produtos acabados e distribuí-los de forma eficiente para clientes ou pontos de venda.",
+    "answer": true,
+    "explanation": "O CD é o elo entre produção/fornecedores e clientes finais ou varejistas, concentrando recebimento, armazenagem, separação e expedição de produtos."
+  },
+  {
+    "id": "ini-08",
+    "level": "iniciante",
+    "category": "siglas-termos",
+    "statement": "SKU (Stock Keeping Unit) é uma unidade de medida de peso utilizada em operações de armazenagem.",
+    "answer": false,
+    "explanation": "SKU é um código único que identifica cada item de estoque de forma distinta (produto, tamanho, cor, embalagem etc.). Não é uma unidade de peso."
+  },
+  {
+    "id": "ini-09",
+    "level": "iniciante",
+    "category": "siglas-termos",
+    "statement": "Lead Time, no contexto de supply chain, representa o tempo decorrido entre o momento em que um pedido é feito e o momento em que ele é recebido.",
+    "answer": true,
+    "explanation": "Lead Time é esse intervalo total — da colocação do pedido até a entrega. Pode incluir processamento, produção, transporte e recebimento, dependendo do contexto."
+  },
+  {
+    "id": "ini-10",
+    "level": "iniciante",
+    "category": "siglas-termos",
+    "statement": "FOB (Free on Board) significa que o vendedor é responsável por todos os custos e riscos de transporte até o destino final do comprador.",
+    "answer": false,
+    "explanation": "No Incoterm FOB, a responsabilidade do vendedor termina quando a mercadoria é colocada a bordo do navio no porto de embarque. A partir daí, frete e riscos são do comprador."
+  },
+  {
+    "id": "int-01",
+    "level": "intermediario",
+    "category": "conceitos-negocio",
+    "statement": "O trade-off clássico em logística entre custo e nível de serviço implica que, em geral, aumentar o nível de serviço ao cliente requer manter mais estoque e, portanto, maior custo.",
+    "answer": true,
+    "explanation": "Maior nível de serviço (alta disponibilidade, prazo curto) geralmente demanda mais estoque de segurança ou capacidade de resposta, elevando custos. O gestor deve encontrar o ponto ótimo."
+  },
+  {
+    "id": "int-02",
+    "level": "intermediario",
+    "category": "conceitos-negocio",
+    "statement": "O estoque de segurança (safety stock) tem como objetivo proteger a operação contra variações inesperadas de demanda e de lead time de fornecimento.",
+    "answer": true,
+    "explanation": "Safety stock é um colchão adicional ao estoque médio, dimensionado para absorver incertezas de demanda e de prazo de entrega, evitando rupturas (stockouts)."
+  },
+  {
+    "id": "int-03",
+    "level": "intermediario",
+    "category": "conceitos-negocio",
+    "statement": "A diferença entre um Centro de Distribuição (CD) e um depósito tradicional é que o CD é focado apenas em guardar mercadorias por longos períodos, sem valor agregado.",
+    "answer": false,
+    "explanation": "O CD é mais dinâmico: realiza operações de valor agregado como picking, consolidação, etiquetagem e cross-docking. O depósito tradicional foca em armazenagem passiva de longa duração."
+  },
+  {
+    "id": "int-04",
+    "level": "intermediario",
+    "category": "conceitos-negocio",
+    "statement": "Milk run é um sistema de coleta programada onde um veículo faz um roteiro sequencial passando por múltiplos fornecedores para coletar pequenos lotes, reduzindo custos de frete e estoques.",
+    "answer": true,
+    "explanation": "O milk run (inspirado nas rotas de coleta de leite) é eficiente: um caminhão otimiza o roteiro entre fornecedores, evitando viagens individuais e reduzindo estoques em trânsito."
+  },
+  {
+    "id": "int-05",
+    "level": "intermediario",
+    "category": "conceitos-negocio",
+    "statement": "A curva ABC de classificação de estoques organiza os itens em três grupos (A, B, C) com base no valor de consumo, sendo o grupo A composto pelos itens de menor valor unitário.",
+    "answer": false,
+    "explanation": "Na curva ABC, o grupo A representa os itens de MAIOR valor de consumo (geralmente ~20% dos SKUs que respondem por ~80% do valor). Itens A exigem maior atenção e controle."
+  },
+  {
+    "id": "int-06",
+    "level": "intermediario",
+    "category": "siglas-termos",
+    "statement": "Os Incoterms são regras internacionais publicadas pela ICC que definem responsabilidades, custos e riscos entre comprador e vendedor nas transações comerciais internacionais.",
+    "answer": true,
+    "explanation": "Os Incoterms (International Commercial Terms), publicados pela Câmara de Comércio Internacional (ICC), são o padrão global para delimitar até onde vai a responsabilidade de cada parte em uma compra e venda internacional."
+  },
+  {
+    "id": "int-07",
+    "level": "intermediario",
+    "category": "siglas-termos",
+    "statement": "O Lead Time de ressuprimento (supplier lead time) e o Lead Time de entrega ao cliente (customer lead time) são sempre iguais em qualquer operação de supply chain.",
+    "answer": false,
+    "explanation": "São lead times distintos: o de fornecedor mede o tempo para receber insumo/produto; o do cliente mede o tempo que a empresa leva para entregar ao seu cliente. Raramente são iguais."
+  },
+  {
+    "id": "int-08",
+    "level": "intermediario",
+    "category": "siglas-termos",
+    "statement": "DDP (Delivered Duty Paid) é o Incoterm que representa a máxima obrigação para o vendedor, que assume todos os custos e riscos até a entrega no destino, incluindo impostos de importação.",
+    "answer": true,
+    "explanation": "No DDP, o vendedor é responsável por tudo: frete internacional, seguro, desembaraço aduaneiro e impostos de importação. É o Incoterm de maior responsabilidade para quem vende."
+  },
+  {
+    "id": "int-09",
+    "level": "intermediario",
+    "category": "indicadores",
+    "statement": "Fill Rate (taxa de atendimento) mede o percentual de pedidos de clientes atendidos completamente a partir do estoque disponível, sem necessidade de backorder.",
+    "answer": true,
+    "explanation": "Fill rate é um KPI-chave de disponibilidade: quanto maior, mais pedidos são entregues integralmente no prazo. Baixo fill rate indica ruptura de estoque frequente."
+  },
+  {
+    "id": "int-10",
+    "level": "intermediario",
+    "category": "indicadores",
+    "statement": "O giro de estoque (inventory turnover) indica quantas vezes o estoque médio é renovado em um período. Um giro baixo sempre significa boa gestão de estoque.",
+    "answer": false,
+    "explanation": "Um giro baixo pode indicar excesso de estoque, itens obsoletos ou baixa demanda — o que geralmente é ruim. Um giro alto (dentro de limites seguros) é desejado, pois o estoque está sendo utilizado eficientemente."
+  },
+  {
+    "id": "adv-01",
+    "level": "avancado",
+    "category": "estoque-demanda",
+    "statement": "O Lote Econômico de Compra (EOQ) é calculado minimizando a soma dos custos de pedido e dos custos de manutenção de estoque.",
+    "answer": true,
+    "explanation": "O EOQ encontra o ponto ótimo onde o custo total (custo fixo por pedido + custo de manter estoque) é mínimo. Fórmula: EOQ = √(2DS/H), onde D = demanda anual, S = custo por pedido, H = custo de manutenção unitário anual."
+  },
+  {
+    "id": "adv-02",
+    "level": "avancado",
+    "category": "estoque-demanda",
+    "statement": "Forecasting baseado exclusivamente em médias históricas simples é o método mais preciso para todos os tipos de demanda, incluindo produtos sazonais.",
+    "answer": false,
+    "explanation": "Média simples não captura sazonalidade nem tendências. Para demandas sazonais, métodos como suavização exponencial com ajuste sazonal (Holt-Winters) ou decomposição são mais adequados."
+  },
+  {
+    "id": "adv-03",
+    "level": "avancado",
+    "category": "estoque-demanda",
+    "statement": "O ponto de pedido (reorder point) é calculado como a demanda média durante o lead time somada ao estoque de segurança.",
+    "answer": true,
+    "explanation": "Ponto de Pedido = (Demanda média × Lead time) + Estoque de segurança. Quando o estoque atinge esse nível, um novo pedido deve ser feito para que o produto chegue antes de o estoque zerar."
+  },
+  {
+    "id": "adv-04",
+    "level": "avancado",
+    "category": "transporte-distribuicao",
+    "statement": "O modal ferroviário é mais indicado para transporte de grandes volumes de cargas a granel em longas distâncias, sendo mais eficiente energeticamente que o modal rodoviário nessas condições.",
+    "answer": true,
+    "explanation": "O trem tem alta capacidade de carga e baixo custo por tonelada-km em grandes distâncias. Sua limitação é a menor flexibilidade de rotas e a necessidade de infraestrutura ferroviária."
+  },
+  {
+    "id": "adv-05",
+    "level": "avancado",
+    "category": "transporte-distribuicao",
+    "statement": "Roteirização (vehicle routing) busca apenas minimizar a distância total percorrida pelos veículos, sem considerar janelas de tempo ou capacidade dos veículos.",
+    "answer": false,
+    "explanation": "Roteirização moderna (VRP) considera múltiplas restrições: capacidade dos veículos, janelas de tempo dos clientes (VRPTW), número de motoristas, custos e outros fatores operacionais."
+  },
+  {
+    "id": "adv-06",
+    "level": "avancado",
+    "category": "supply-chain-estrategico",
+    "statement": "O processo S&OP (Sales & Operations Planning) tem como objetivo alinhar os planos de vendas e demanda com a capacidade de produção e suprimento, integrando decisões comerciais e operacionais.",
+    "answer": true,
+    "explanation": "O S&OP é um processo gerencial que reconcilia planos de vendas, marketing, produção, suprimentos e financeiro em um único plano integrado, geralmente com ciclo mensal de revisão."
+  },
+  {
+    "id": "adv-07",
+    "level": "avancado",
+    "category": "supply-chain-estrategico",
+    "statement": "OTIF (On Time In Full) é um KPI que mede o percentual de pedidos entregues no prazo combinado E com a quantidade/especificação completa solicitada pelo cliente.",
+    "answer": true,
+    "explanation": "OTIF é uma das métricas mais exigidas por grandes varejistas e indústrias. Um pedido só conta como OTIF se atender AMBAS as condições: prazo (On Time) e quantidade/qualidade completa (In Full)."
+  },
+  {
+    "id": "adv-08",
+    "level": "avancado",
+    "category": "supply-chain-estrategico",
+    "statement": "Sourcing estratégico consiste em selecionar fornecedores exclusivamente com base no menor preço, sem considerar qualidade, capacidade, localização ou risco de fornecimento.",
+    "answer": false,
+    "explanation": "Sourcing estratégico avalia fornecedores em múltiplas dimensões: preço, qualidade, capacidade produtiva, localização, saúde financeira, risco de interrupção e alinhamento estratégico."
+  },
+  {
+    "id": "adv-09",
+    "level": "avancado",
+    "category": "armazenagem-cd",
+    "statement": "Cross-docking é uma técnica onde os produtos recebidos são transferidos diretamente para a área de expedição com mínimo ou nenhum tempo de armazenagem intermediária.",
+    "answer": true,
+    "explanation": "No cross-docking, a mercadoria é recebida, separada/consolidada e redirecionada para expedição em horas. Elimina custos de armazenagem e acelera o fluxo, muito usado por grandes redes varejistas."
+  },
+  {
+    "id": "adv-10",
+    "level": "avancado",
+    "category": "armazenagem-cd",
+    "statement": "Um WMS (Warehouse Management System) é um software que controla e otimiza operações internas de um armazém, incluindo recebimento, endereçamento, picking, packing e expedição.",
+    "answer": true,
+    "explanation": "O WMS é o sistema nervoso central do armazém: controla localização de cada item, dirige tarefas dos operadores, otimiza rotas de picking e gera rastreabilidade completa dos movimentos de estoque."
+  }
+]

@@ -1,0 +1,106 @@
+.container {
+  animation: fadeIn 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.emoji {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  max-width: 420px;
+  line-height: 1.5;
+}
+
+.levelsSection {
+  width: 100%;
+}
+
+.levelsLabel {
+  text-align: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.levelsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 560px) {
+  .levelsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.levelBtn {
+  background: var(--color-card);
+  border: 2px solid transparent;
+  border-radius: var(--radius-card);
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+  box-shadow: var(--shadow-card);
+}
+
+.levelBtn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.levelBtn[data-level="iniciante"]:hover   { border-color: var(--color-iniciante); background: rgba(46, 204, 113, 0.08); }
+.levelBtn[data-level="intermediario"]:hover { border-color: var(--color-intermediario); background: rgba(243, 156, 18, 0.08); }
+.levelBtn[data-level="avancado"]:hover    { border-color: var(--color-avancado); background: rgba(231, 76, 60, 0.08); }
+.levelBtn[data-level="misto"]:hover       { border-color: var(--color-misto); background: rgba(108, 99, 255, 0.08); }
+
+.levelEmoji {
+  font-size: 1.8rem;
+}
+
+.levelName {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.levelName[data-level="iniciante"]   { color: var(--color-iniciante); }
+.levelName[data-level="intermediario"] { color: var(--color-intermediario); }
+.levelName[data-level="avancado"]    { color: var(--color-avancado); }
+.levelName[data-level="misto"]       { color: var(--color-misto); }
+
+.levelDesc {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.4;
+}

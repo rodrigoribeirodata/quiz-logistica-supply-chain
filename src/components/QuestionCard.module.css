@@ -1,0 +1,112 @@
+.card {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: 2rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  animation: fadeIn 0.35s ease;
+  border: 2px solid transparent;
+  transition: border-color var(--transition-med), background var(--transition-med);
+}
+
+.card.correct {
+  border-color: var(--color-success);
+  animation: flashGreen 0.6s ease forwards;
+}
+
+.card.wrong {
+  border-color: var(--color-error);
+  animation: shake 0.45s ease;
+}
+
+.categoryTag {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.statement {
+  font-size: clamp(1rem, 3vw, 1.15rem);
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.answerBtn {
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-btn);
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid transparent;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text);
+  transition: transform var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.answerBtn:not(:disabled):hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.answerBtn:disabled {
+  cursor: default;
+}
+
+.answerBtn.selectedCorrect {
+  background: rgba(46, 204, 113, 0.2);
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.answerBtn.selectedWrong {
+  background: rgba(231, 76, 60, 0.2);
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+.answerBtn.correctHint {
+  border-color: var(--color-success);
+  color: var(--color-success);
+  background: rgba(46, 204, 113, 0.08);
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  animation: fadeIn 0.3s ease;
+}
+
+.feedbackStatus {
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.feedbackStatus.correct { color: var(--color-success); }
+.feedbackStatus.wrong   { color: var(--color-error); }
+.feedbackStatus.timeout { color: var(--color-warning); }
+
+.explanation {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}

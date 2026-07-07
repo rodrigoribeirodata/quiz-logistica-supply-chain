@@ -1,0 +1,80 @@
+:root {
+  --color-primary: #6C63FF;
+  --color-secondary: #FF6584;
+  --color-success: #2ECC71;
+  --color-error: #E74C3C;
+  --color-warning: #F39C12;
+  --color-bg: #0F0E17;
+  --color-card: #1E1E2E;
+  --color-card-hover: #252540;
+  --color-text: #FFFFFE;
+  --color-text-muted: #A7A9BE;
+  --color-iniciante: #2ECC71;
+  --color-intermediario: #F39C12;
+  --color-avancado: #E74C3C;
+  --color-misto: #6C63FF;
+  --radius-card: 16px;
+  --radius-btn: 12px;
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-btn: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --transition-fast: 0.15s ease;
+  --transition-med: 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 720px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-8px); }
+  40%       { transform: translateX(8px); }
+  60%       { transform: translateX(-6px); }
+  80%       { transform: translateX(6px); }
+}
+
+@keyframes flashGreen {
+  0%   { background-color: var(--color-card); }
+  30%  { background-color: rgba(46, 204, 113, 0.18); }
+  100% { background-color: var(--color-card); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.06); }
+}
